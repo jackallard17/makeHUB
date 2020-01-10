@@ -1,0 +1,7 @@
+-find and install open source 3d printing software
+
+-blocklyduino works fine in chromium
+ |would be great to find a more lightweight/customizable verison 
+ |how much can chromuim be configured? this might be something to look up
+  \install pre customized chromium bilds
+   +ability to configure kiosk, no bookmarks bar, no window decorations

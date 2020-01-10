@@ -1,0 +1,12 @@
+BlocklyDuino
+===================================
+etc/BlocklyDuino/blockly/apps/blocklyduino/index.html
+
+-sh:
+    chromium-browser etc/BlocklyDuino/blockly/apps/blocklyduino/index.html --kiosk
+
+
+Arduino
+===================================
+/etc/arduino-1.8.10/arduino
+

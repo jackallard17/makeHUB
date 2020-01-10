@@ -1,0 +1,17 @@
+connecting apps
+---------------------------------------------
+-Need a script that will automatically feed .ino file from blocklyDuino into actual arduino IDE
+
+
+optomizing/smoothing out
+---------------------------------------------
+-configure chromium to work in a kiosk-like mode
+  |must launch on start
+   +in full screen mode, on the makeHUB homepage
+  |browse github for premade open-source webpage templates - will 
+   save a lot of time
+
+-configure keybard shortcuts
+  |use top row num keys to navigate around software
+  |"home" key which returns to the main page
+   +seprate home key which also closes all apps
