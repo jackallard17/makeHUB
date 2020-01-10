@@ -1,2 +1,2 @@
 # makeHUB-ARM
-An all in one solution for connecting open source makerspace tools using ARM based devices.
+An all in one interface for connecting open source makerspace tools using ARM based devices.
