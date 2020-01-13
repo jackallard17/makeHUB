@@ -1,47 +1,124 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <title>Hello World!</title>
+    <title>makeHub v1.0</title>
 
-  <!-- Favicon -->
-  <link href="../argon-design-system/assets/img/brand/favicon.png" rel="icon" type="image/png">
+    <!-- Favicon -->
+    <link
+      href="../argon-design-system/assets/img/brand/favicon.png"
+      rel="icon"
+      type="image/png"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
 
-  <!-- Icons -->
-  <link href="../argon-design-system/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-  <link href="../argon-design-system/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Icons -->
+    <link
+      href="../argon-design-system/assets/vendor/nucleo/css/nucleo.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../argon-design-system/assets/vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Argon CSS -->
-  <link type="text/css" href="../argon-design-system/assets/css/argon.css" rel="stylesheet">
-</head>
-<body>
-  
-  <center><div class="main_content">
-  <h1>makeHUB</h1>
-  <h2>version 1.0 by Jack Allard</h2>
+    <!-- Argon CSS -->
+    <link
+      type="text/css"
+      href="../argon-design-system/assets/css/argon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <center>
+      <div class="main_content">
+        <div class="frontpage_title">
+          <h1>makeHUB</h1>
+          <h6>version 1.0 by Jack Allard</h6>
+        </div>
+        
+        <h6 class="spacer"> &nbsp; </h6>
 
-  <button class="btn btn-icon btn-3 btn-primary" type="button">
-	<span class="btn-inner--icon"><i class="ni ni-bag-17"></i></span>
+        <table class="frontpage_modal_main">
+          <div class="row">
+            <div class="col-md-4">
+                <button type="button" class="btn btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">Arduino</button>
+                <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                  <div class="modal-content">
+          
+                      <div class="modal-header">
+                          <h6 class="modal-title" id="modal-title-default">Arduino</h6>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                          </button>
+                      </div>
+          
+                      <div class="modal-body1">
+          
+                          <p>Make your own gadgets with the Ardino boards! You don't need to know how to code to make electronics.</p>
 
-    <span class="btn-inner--text">With icon</span>
+                          <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                      </div>
+          
+                  </div>
+              </div>
+        
+          </div>
+        </div>
+        <div class="col-md-4">
+            <button type="button" class="btn btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">3D Printing</button>
+            <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+          <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+              <div class="modal-content">
+      
+                  <div class="modal-header">
+                      <h6 class="modal-title" id="modal-title-default">3D Printing</h6>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">×</span>
+                      </button>
+                  </div>
+      
+                  <div class="modal-body2">
+      
+                      <p>Design and print your own objects with a 3D printer.</p>
+                      
+      
+                  </div>
+      
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                  </div>
+      
+              </div>
+          </div>
+    
+      </div>
+    </div>
+        </table>
+      </div>
+    </center>
 
-  </button>
-  </div></center>
+    <!-- Core -->
+    <script src="../argon-design-system/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../argon-design-system/assets/vendor/popper/popper.min.js"></script>
+    <script src="../argon-design-system/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
-  <!-- Core -->
-  <script src="../argon-design-system/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="../argon-design-system/assets/vendor/popper/popper.min.js"></script>
-  <script src="../argon-design-system/assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- Optional plugins -->
+    <script src="../argon-design-system/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js"></script>
 
-  <!-- Optional plugins -->
-  <script src="../argon-design-system/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js"></script>
-
-  <!-- Theme JS -->
-  <script src="../argon-design-system/assets/js/argon.js"></script>
+    <!-- Theme JS -->
+    <script src="../argon-design-system/assets/js/argon.js"></script>
   </body>
 </html>
