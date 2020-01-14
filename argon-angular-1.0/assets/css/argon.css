@@ -15,6 +15,38 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+
+/*=== makeHUB rules===*/
+#interface_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10% 0;
+    min-height: 200px;
+    align-items: center;
+
+    margin-top: 5vh;
+    padding-top: 1vh;
+
+}
+
+#interface_main_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10% 0;
+    min-height: 200px;
+    align-items: center;
+
+    margin-top: 20vh;
+}
+
 :root
 {
     --blue: #5e72e4;
