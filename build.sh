@@ -22,12 +22,14 @@ sudo apt-get install -y nodejs
 
 #install arduino
 echo -e "${RED} ==makeHUB: INSTALLING AND CONFIGURING ARDUINO== ${ENDCOLOR}"
-cd packages/arduino-1.8.10
-sudo ./install.sh
-
-#install cura 
-sudo apt-get install cura
 
 
+#install octoprint 
+echo -e "${RED} ==makeHUB: INSTALLING AND CONFIGURING OCTOPRINT== ${ENDCOLOR}"
+cd packages/
+git clone https://github.com/foosel/OctoPrint.git
+cd OctoPrint
+virtualenv --python=python2.7 venv
+./venv/bin/pip install .
 
 exit
