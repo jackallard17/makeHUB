@@ -16,7 +16,7 @@ sudo apt-get install $PREBUILT_PACKAGES
 
 #install arduino
 echo -e "${RED} ==makeHUB: INSTALLING AND CONFIGURING ARDUINO== ${ENDCOLOR}"
-cd packages/Arduino
+cd packages/arduino-1.8.10
 sudo ./install.sh
 
 #install octoprint
