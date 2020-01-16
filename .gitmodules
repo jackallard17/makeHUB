@@ -1,0 +1,6 @@
+[submodule "packages/ardublockly"]
+	path = packages/ardublockly
+	url = https://github.com/carlosperate/ardublockly.git
+[submodule "packages/Arduino"]
+	path = packages/Arduino
+	url = https://github.com/arduino/Arduino.git
