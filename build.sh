@@ -6,7 +6,8 @@ ENDCOLOR='\e[0m'
 
 PREBUILT_PACKAGES='
 chromium-browser  
-python 
+python
+virtualenv
 '
 
 #update apt
