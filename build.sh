@@ -7,7 +7,7 @@ ENDCOLOR='\e[0m'
 PREBUILT_PACKAGES='
 chromium-browser  
 python
-python3-pip
+python-pip
 virtualenv
 '
 
