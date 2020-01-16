@@ -2,3 +2,6 @@
 	path = packages/ardublockly
 	url = https://github.com/carlosperate/ardublockly.git
 
+[submodule "packages/OctoPrint"]
+	path = packages/OctoPrint
+	url = https://github.com/foosel/OctoPrint.git
