@@ -7,6 +7,7 @@ ENDCOLOR='\e[0m'
 PREBUILT_PACKAGES='
 chromium-browser  
 python
+python3-pip
 virtualenv
 '
 
@@ -32,5 +33,6 @@ git clone https://github.com/foosel/OctoPrint.git
 cd OctoPrint
 virtualenv --python=python2.7 venv
 ./venv/bin/pip install .
+pip install .
 
 exit
