@@ -9,6 +9,7 @@ chromium-browser
 python
 python-pip
 virtualenv
+wmctrl
 '
 
 #update apt
@@ -22,11 +23,21 @@ sudo apt-get install $PREBUILT_PACKAGES
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 #install arduino
 echo -e "${RED} ==makeHUB: INSTALLING AND CONFIGURING ARDUINO== ${ENDCOLOR}"
 sudo apt-get install arduino
 cd packages/
 git clone https://github.com/carlosperate/ardublockly.git
+
+cd /ardublockly
+rm start.py start_server.py
+
+cd ../../scripts/python
+cp start.py ../../packages/ardublockly
+cp start_server.py ../../packages/ardublockly 
 
 #install octoprint 
 echo -e "${RED} ==makeHUB: INSTALLING AND CONFIGURING OCTOPRINT== ${ENDCOLOR}"
