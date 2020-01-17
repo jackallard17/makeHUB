@@ -24,7 +24,9 @@ sudo apt-get install -y nodejs
 
 #install arduino
 echo -e "${RED} ==makeHUB: INSTALLING AND CONFIGURING ARDUINO== ${ENDCOLOR}"
-
+sudo apt-get install arduino
+cd packages/
+git clone https://github.com/carlosperate/ardublockly.git
 
 #install octoprint 
 echo -e "${RED} ==makeHUB: INSTALLING AND CONFIGURING OCTOPRINT== ${ENDCOLOR}"
