@@ -1,0 +1,64 @@
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:42998 [200]: /
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43002 [200]: /argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43006 [200]: /argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43010 [200]: /argon-angular-1.0/assets/css/argon.css
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43014 [200]: /argon-angular-1.0/assets/vendor/jquery/jquery.min.js
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43018 [200]: /argon-angular-1.0/assets/vendor/popper/popper.min.js
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43022 [200]: /argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43026 [200]: /node_modules/jquery/dist/jquery.min.js
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43030 [200]: /index.js
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43034 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43038 [200]: /argon-angular-1.0/assets/js/argon.js
+[Fri Jan 17 01:43:48 2020] 127.0.0.1:43044 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 01:43:49 2020] 127.0.0.1:43050 [200]: /argon-angular-1.0/assets/img/brand/favicon.png
+[17365:17365:0117/014352.934429:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[17365:17365:0117/014352.985358:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[17365:17365:0117/014358.606147:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Fontconfig error: Cannot load default config file
+[Fri Jan 17 01:44:10 2020] 127.0.0.1:43054 [200]: /php_scripts/ardublockly_launch.php
+[17751:17751:0117/014417.273228:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[17751:17751:0117/014712.056223:ERROR:gl_surface_presentation_helper.cc(259)] GetVSyncParametersIfAvailable() failed for 1 times!
+[17751:17751:0117/014712.056347:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)
+[17718:17718:0117/014712.070109:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+[Fri Jan 17 01:47:12 2020] 127.0.0.1:43132 [200]: /php_scripts/octoprint_launch.php
+[Fri Jan 17 01:47:55 2020] Failed to listen on localhost:8000 (reason: Address already in use)
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43276 [200]: /
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43280 [200]: /argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43288 [200]: /argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43292 [200]: /argon-angular-1.0/assets/css/argon.css
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43296 [200]: /argon-angular-1.0/assets/vendor/jquery/jquery.min.js
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43300 [200]: /argon-angular-1.0/assets/vendor/popper/popper.min.js
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43304 [200]: /argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43308 [200]: /node_modules/jquery/dist/jquery.min.js
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43312 [200]: /index.js
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43316 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43320 [200]: /argon-angular-1.0/assets/js/argon.js
+[Fri Jan 17 01:47:59 2020] 127.0.0.1:43326 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[18529:18529:0117/014803.329313:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[Fri Jan 17 01:52:27 2020] 127.0.0.1:43346 [200]: /php_scripts/octoprint_launch.php
+[18724:18724:0117/015232.055096:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+Gtk-Message: 02:10:00.863: GtkDialog mapped without a transient parent. This is discouraged.
+[Fri Jan 17 02:11:11 2020] 127.0.0.1:43492 [200]: /php_scripts/octoprint_launch.php
+[19206:19206:0117/021115.886067:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[19206:19206:0117/021128.321109:ERROR:gl_surface_presentation_helper.cc(259)] GetVSyncParametersIfAvailable() failed for 1 times!
+[19206:19206:0117/021128.321217:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)
+[19173:19173:0117/021128.331650:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44670 [200]: /
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44674 [200]: /argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44682 [200]: /argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44686 [200]: /argon-angular-1.0/assets/css/argon.css
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44690 [200]: /argon-angular-1.0/assets/vendor/jquery/jquery.min.js
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44694 [200]: /argon-angular-1.0/assets/vendor/popper/popper.min.js
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44698 [200]: /argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44702 [200]: /node_modules/jquery/dist/jquery.min.js
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44706 [200]: /index.js
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44710 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44714 [200]: /argon-angular-1.0/assets/js/argon.js
+[Fri Jan 17 02:12:51 2020] 127.0.0.1:44720 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[1487:1487:0117/021256.825616:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1487:1487:0117/022239.543241:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)
+[1451:1451:0117/022239.548769:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+PHP 7.2.24-0ubuntu0.18.04.2 Development Server started at Fri Jan 17 02:25:48 2020
+Listening on http://localhost:8000
+Document root is /home/jack/makeHUB/interface
+Press Ctrl-C to quit.

@@ -1,0 +1,328 @@
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings file corrupted or not found in:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+Settings will be set to the default values.
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+[8429:8429:0117/014227.818174:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[8429:8429:0117/014227.955026:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Fontconfig error: Cannot load default config file
+[8392:8533:0117/014228.394032:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.404868:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.415544:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.429873:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.441014:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.452731:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.463251:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.473829:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.484715:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.495557:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[8392:8533:0117/014228.506450:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "../../packages/ardublockly/start_server.py", line 185, in <module>
+    main()
+  File "../../packages/ardublockly/start_server.py", line 181, in main
+    ip=SERVER_IP, port=SERVER_PORT, document_root_=server_root)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/server.py", line 41, in launch_server
+    run(app, server='waitress', host=ip, port=port, debug=True)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/bottle.py", line 3127, in run
+    server.run(app)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/bottle.py", line 2813, in run
+    serve(handler, host=self.host, port=self.port)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/__init__.py", line 11, in serve
+    server = _server(app, **kw)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 85, in create_server
+    sockinfo=sockinfo)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 182, in __init__
+    self.bind_server_socket()
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 294, in bind_server_socket
+    self.bind(sockaddr)
+  File "/usr/lib/python2.7/asyncore.py", line 342, in bind
+    return self.socket.bind(addr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Opening in existing browser session.
+[9630:1:0117/014348.998273:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9630:1:0117/014348.998893:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9630:1:0117/014349.000244:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9630:1:0117/014349.000696:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8429:8429:0117/014712.039489:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)
+[8392:8392:0117/014712.051389:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "../../packages/ardublockly/start_server.py", line 185, in <module>
+    main()
+  File "../../packages/ardublockly/start_server.py", line 181, in main
+    ip=SERVER_IP, port=SERVER_PORT, document_root_=server_root)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/server.py", line 41, in launch_server
+    run(app, server='waitress', host=ip, port=port, debug=True)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/bottle.py", line 3127, in run
+    server.run(app)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/bottle.py", line 2813, in run
+    serve(handler, host=self.host, port=self.port)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/__init__.py", line 11, in serve
+    server = _server(app, **kw)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 85, in create_server
+    sockinfo=sockinfo)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 182, in __init__
+    self.bind_server_socket()
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 294, in bind_server_socket
+    self.bind(sockaddr)
+  File "/usr/lib/python2.7/asyncore.py", line 342, in bind
+    return self.socket.bind(addr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[18375:18375:0117/014756.112072:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[18375:18375:0117/014759.448100:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[18415:1:0117/014759.738893:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18415:1:0117/014759.739829:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18415:1:0117/014759.741856:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18415:1:0117/014759.742848:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18337:18482:0117/014759.869071:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.882574:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.893793:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.904669:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.916127:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.927221:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.938044:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.949330:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.960871:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.972104:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18337:18482:0117/014759.983049:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[18375:18375:0117/021128.320421:ERROR:gl_surface_presentation_helper.cc(259)] GetVSyncParametersIfAvailable() failed for 1 times!
+[18375:18375:0117/021128.320861:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)
+[18337:18337:0117/021128.322153:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+[18337:18376:0117/021128.406590:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+[1298:1298:0117/021249.013605:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1298:1298:0117/021251.423033:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[1367:1:0117/021251.762400:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1367:1:0117/021251.764685:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1367:1:0117/021251.769247:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1367:1:0117/021251.770804:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1263:1294:0117/021251.913803:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021251.930421:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021251.940343:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021251.950567:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021251.961136:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021251.971472:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021251.981855:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021251.992410:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021252.003301:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021252.014859:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1294:0117/021252.025631:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1263:1263:0117/022239.533509:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+[1298:1298:0117/022239.538776:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+Opening in existing browser session.
+[1604:1604:0117/022854.257022:ERROR:broker_posix.cc(43)] Invalid node channel message

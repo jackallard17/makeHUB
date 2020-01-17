@@ -1,6 +1,5 @@
 #!/bin/bash
 
 cd ../../packages/OctoPrint/venv/bin/
-nohup ./octoprint &
+octoprint serve
 
-exit
