@@ -1,0 +1,12 @@
+{
+  "name": "makehub-interface",
+  "version": "1.0.0",
+  "description": "Jquery and PHP scripts for makeHUB interface",
+  "main": "index.js",
+  "repository": "https://github.com/jackallard17/makeHUB.git",
+  "scripts": {
+    "test": "echo \"makehub interface working..."
+  },
+  "author": "Jack Allard",
+  "license": "MIT"
+}

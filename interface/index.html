@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html>
+  <head>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -9,7 +11,7 @@
 
     <!-- Favicon -->
     <link
-      href="../packages/argon-angular-1.0/assets/img/brand/favicon.png"
+      href="./argon-angular-1.0/assets/img/brand/favicon.png"
       rel="icon"
       type="image/png"
     />
@@ -22,18 +24,18 @@
 
     <!-- Icons -->
     <link
-      href="../packages/argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css"
+      href="./argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css"
       rel="stylesheet"
     />
     <link
-      href="../packages/argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css"
+      href="./argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css"
       rel="stylesheet"
     />
 
     <!-- Argon CSS -->
     <link
       type="text/css"
-      href="../packages/argon-angular-1.0/assets/css/argon.css"
+      href="./argon-angular-1.0/assets/css/argon.css"
       rel="stylesheet"
     />
   </head>
@@ -100,8 +102,8 @@
                     >
                       Close
                     </button>
-                    
-                    <button type="button" class="btn btn-primary">
+
+                    <button type="button" class="btn btn-primary" onclick="launchArdublockly()">
                       launch arduino software
                     </button>
                   </div>
@@ -149,7 +151,7 @@
                     Design something awesome and bring it into the physical
                     realm using the 3D printers! Will you make a piece of art or
                     something that makes your life easier? (Hint: it can be
-                    both) 
+                    both)
                   </div>
                   <div class="modal-footer">
                     <button
@@ -159,7 +161,8 @@
                     >
                       Close
                     </button>
-                    <button type="button" class="btn btn-primary">
+                    <button type="button" class="btn btn-primary" 
+                        onclick="launchOctoprint()">
                       Launch 3D Printing Software
                     </button>
                   </div>
@@ -171,15 +174,18 @@
       </div>
     </div>
     <!-- Core -->
-    <script src="../packages/argon-angular-1.0/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="../packages/argon-angular-1.0/assets/vendor/popper/popper.min.js"></script>
-    <script src="../packages/argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="./argon-angular-1.0/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./argon-angular-1.0/assets/vendor/popper/popper.min.js"></script>
+    <script src="./argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="index.js"></script>
+    
 
     <!-- Optional plugins -->
-    <script src="../packages/argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js"></script>
+    <script src="./argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js"></script>
 
     <!-- Theme JS -->
-    <script src="../packages/argon-angular-1.0/assets/js/argon.js"></script>
-
+    <script src="./argon-angular-1.0/assets/js/argon.js"></script>
   </body>
 </html>

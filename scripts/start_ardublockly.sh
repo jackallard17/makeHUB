@@ -1,6 +1,3 @@
 #!/bin/bash
 
-cd ..
-cd ../packages/ardublockly
-#ls
-python start.py
+google-chrome-stable --app=http://localhost:8001
