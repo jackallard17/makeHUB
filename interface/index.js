@@ -1,4 +1,5 @@
 function launchOctoprint () {
+  
     $.ajax({
       url:"php_scripts/octoprint_launch.php", //the page containing php script
       type: "POST", //request type
@@ -14,6 +15,16 @@ function launchArdublockly () {
       type: "POST", //request type
       success:function(result){
           console.log('Ardublockly Launched');
+     }
+   });
+}
+
+function shutDown() {
+    $.ajax({
+      url:"php_scripts/shutdown.php", //the page containing php script
+      type: "POST", //request type
+      success:function(result){
+          console.log('Shutting Down');
      }
    });
 }
