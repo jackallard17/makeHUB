@@ -1,0 +1,25 @@
+#interface_main_inner {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10% 0;
+    min-height: 200px;
+    align-items: center;
+    margin-top: 20vh;
+    border-bottom: 0;
+}
+
+div#shutdown_footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#shutdown_button {
+    transform: translateY(44vh);
+    margin-right: 3vh;
+}

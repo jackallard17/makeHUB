@@ -38,134 +38,145 @@
       href="./argon-angular-1.0/assets/css/argon.css"
       rel="stylesheet"
     />
+
+    <!--Custom makeHUB stylesheet-->
+    <link
+    href="./makehub_styles.css"
+    rel="stylesheet"
+  />
+
   </head>
 
   <body>
-    <div id="interface_main">
-      <div id="interface_main_inner">
-        <div class="interface_main_header">
-          <div class="main_content">
-            <div class="frontpage_title">
-              <h1>makeHUB</h1>
-              <h6>version 1.0 by Jack Allard</h6>
-            </div>
+    <div id="interface_main_inner">
+      <div class="interface_main_header">
+        <div class="main_content">
+          <div class="frontpage_title">
+            <h1>makeHUB</h1>
+            <h6>version 1.0 by Jack Allard</h6>
           </div>
         </div>
+      </div>
 
-        <h6 id="spacer">&nbsp;</h6>
+      <h6 id="spacer">&nbsp;</h6>
 
-        <div class="row">
-          <div class="interface_main_arduinoButton">
-            <!-- Button trigger modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#arduinoButton"
-            >
-              Arduino
-            </button>
+      <div class="row">
+        <div class="interface_main_arduinoButton">
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#arduinoButton"
+          >
+            Arduino
+          </button>
 
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="arduinoButton"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="arduinoButton_label"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="arduinoButton_label">
-                      Arduino
-                    </h5>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    Make cool gadgets with the Arduino kits! You dont have to
-                    know how to code to create some neat doodads...
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="arduinoButton"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="arduinoButton_label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="arduinoButton_label">
+                    Arduino
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Make cool gadgets with the Arduino kits! You dont have to know
+                  how to code to create some neat doodads...
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
 
-                    <button type="button" class="btn btn-primary" onclick="launchArdublockly()">
-                      launch arduino software
-                    </button>
-                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    onclick="launchArdublockly()"
+                  >
+                    launch arduino software
+                  </button>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="interface_main_printingButton">
-            <!-- Button trigger modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#printingButton"
-            >
-              3D Printing
-            </button>
+        <div class="interface_main_printingButton">
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#printingButton"
+          >
+            3D Printing
+          </button>
 
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="printingButton"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="printingButton_label"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="printingButton_label">
-                      3D Printing
-                    </h5>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    Design something awesome and bring it into the physical
-                    realm using the 3D printers! Will you make a piece of art or
-                    something that makes your life easier? (Hint: it can be
-                    both)
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                    <button type="button" class="btn btn-primary" 
-                        onclick="launchOctoprint()">
-                      Launch 3D Printing Software
-                    </button>
-                  </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="printingButton"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="printingButton_label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="printingButton_label">
+                    3D Printing
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Design something awesome and bring it into the physical realm
+                  using the 3D printers! Will you make a piece of art or
+                  something that makes your life easier? (Hint: it can be both)
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    onclick="launchOctoprint()"
+                  >
+                    Launch 3D Printing Software
+                  </button>
                 </div>
               </div>
             </div>
@@ -173,9 +184,21 @@
         </div>
       </div>
 
-      <button type="button" class="btn btn-danger" onclick="shutDown()">Shut Down</button>
+      <div class="row" id="shutdown_footer">
+        <div id="shutdown_button_container">
+          <button
+            type="button"
+            class="btn btn-danger"
+            id="shutdown_button"
+            onclick="shutDown()"
+          >
+            Shut Down
+          </button>
+        </div>
+      </div>
 
     </div>
+
     <!-- Core -->
     <script src="./argon-angular-1.0/assets/vendor/jquery/jquery.min.js"></script>
     <script src="./argon-angular-1.0/assets/vendor/popper/popper.min.js"></script>
@@ -183,7 +206,6 @@
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="index.js"></script>
-    
 
     <!-- Optional plugins -->
     <script src="./argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js"></script>
