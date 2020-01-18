@@ -1,3 +1,3 @@
 #!/bin/bash
 
-google-chrome-stable --app=http://localhost:8001
+google-chrome-stable --app=http://localhost:8001 

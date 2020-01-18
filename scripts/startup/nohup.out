@@ -326,3 +326,295 @@ Hit Ctrl-C to quit.
 
 Opening in existing browser session.
 [1604:1604:0117/022854.257022:ERROR:broker_posix.cc(43)] Invalid node channel message
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+[1653:1653:0117/174533.732722:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1653:1653:0117/174533.874062:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[1681:1:0117/174534.194928:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1681:1:0117/174534.195517:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1681:1:0117/174534.233075:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1681:1:0117/174534.233621:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1624:1669:0117/174534.336215:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.349576:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.360323:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.371733:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.383323:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.394730:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.406071:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.417460:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.428649:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.440093:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1669:0117/174534.451348:ERROR:database.cc(1584)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[1624:1624:0117/175034.798674:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+[1653:1653:0117/175034.810133:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)
+[1624:1657:0117/175034.871446:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+Opening in existing browser session.
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+[1445:1445:0117/181608.189934:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[1487:1487:0117/181639.658400:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "../../packages/ardublockly/start_server.py", line 185, in <module>
+    main()
+  File "../../packages/ardublockly/start_server.py", line 181, in main
+    ip=SERVER_IP, port=SERVER_PORT, document_root_=server_root)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/server.py", line 41, in launch_server
+    run(app, server='waitress', host=ip, port=port, debug=True)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/bottle.py", line 3127, in run
+    server.run(app)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/bottle.py", line 2813, in run
+    serve(handler, host=self.host, port=self.port)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/__init__.py", line 11, in serve
+    server = _server(app, **kw)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 85, in create_server
+    sockinfo=sockinfo)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 182, in __init__
+    self.bind_server_socket()
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 294, in bind_server_socket
+    self.bind(sockaddr)
+  File "/usr/lib/python2.7/asyncore.py", line 342, in bind
+    return self.socket.bind(addr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[1538:1538:0117/181819.363711:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "../../packages/ardublockly/start_server.py", line 185, in <module>
+    main()
+  File "../../packages/ardublockly/start_server.py", line 181, in main
+    ip=SERVER_IP, port=SERVER_PORT, document_root_=server_root)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/server.py", line 41, in launch_server
+    run(app, server='waitress', host=ip, port=port, debug=True)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/bottle.py", line 3127, in run
+    server.run(app)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/bottle.py", line 2813, in run
+    serve(handler, host=self.host, port=self.port)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/__init__.py", line 11, in serve
+    server = _server(app, **kw)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 85, in create_server
+    sockinfo=sockinfo)
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 182, in __init__
+    self.bind_server_socket()
+  File "/home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages/waitress/server.py", line 294, in bind_server_socket
+    self.bind(sockaddr)
+  File "/usr/lib/python2.7/asyncore.py", line 342, in bind
+    return self.socket.bind(addr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use

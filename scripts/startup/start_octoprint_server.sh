@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd ../../packages/OctoPrint/venv/bin/
+cd /home/jack/makeHub/packages/OctoPrint/venv/bin/
 octoprint serve
 

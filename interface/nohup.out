@@ -62,3 +62,84 @@ PHP 7.2.24-0ubuntu0.18.04.2 Development Server started at Fri Jan 17 02:25:48 20
 Listening on http://localhost:8000
 Document root is /home/jack/makeHUB/interface
 Press Ctrl-C to quit.
+[Fri Jan 17 17:45:33 2020] 127.0.0.1:40314 [200]: /
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40318 [200]: /argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40326 [200]: /argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40330 [200]: /argon-angular-1.0/assets/css/argon.css
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40334 [200]: /argon-angular-1.0/assets/vendor/jquery/jquery.min.js
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40338 [200]: /argon-angular-1.0/assets/vendor/popper/popper.min.js
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40342 [200]: /argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40346 [200]: /node_modules/jquery/dist/jquery.min.js
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40350 [200]: /index.js
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40354 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40358 [200]: /argon-angular-1.0/assets/js/argon.js
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40364 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 17:45:34 2020] 127.0.0.1:40370 [200]: /argon-angular-1.0/assets/img/brand/favicon.png
+[1788:1788:0117/174537.968545:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[Fri Jan 17 17:45:40 2020] 127.0.0.1:40394 [200]: /php_scripts/ardublockly_launch.php
+[1916:1916:0117/174544.955015:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[Fri Jan 17 17:45:54 2020] 127.0.0.1:40576 [200]: /php_scripts/octoprint_launch.php
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:39990 [200]: /
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:39994 [200]: /argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:39998 [200]: /argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40002 [200]: /argon-angular-1.0/assets/css/argon.css
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40006 [200]: /argon-angular-1.0/assets/vendor/jquery/jquery.min.js
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40010 [200]: /argon-angular-1.0/assets/vendor/popper/popper.min.js
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40014 [200]: /argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40018 [200]: /node_modules/jquery/dist/jquery.min.js
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40022 [200]: /index.js
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40026 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40030 [200]: /argon-angular-1.0/assets/js/argon.js
+[Fri Jan 17 18:04:27 2020] 127.0.0.1:40036 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 18:16:39 2020] Failed to listen on localhost:8000 (reason: Address already in use)
+[Fri Jan 17 18:18:19 2020] Failed to listen on localhost:8000 (reason: Address already in use)
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54758 [200]: /
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54762 [200]: /argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54770 [200]: /argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54774 [200]: /argon-angular-1.0/assets/css/argon.css
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54778 [200]: /argon-angular-1.0/assets/vendor/jquery/jquery.min.js
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54782 [200]: /argon-angular-1.0/assets/vendor/popper/popper.min.js
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54786 [200]: /argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54790 [200]: /node_modules/jquery/dist/jquery.min.js
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54794 [200]: /index.js
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54798 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54802 [200]: /argon-angular-1.0/assets/js/argon.js
+[Fri Jan 17 18:25:15 2020] 127.0.0.1:54808 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[1789:1789:0117/182519.182472:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:25:19 2020] 127.0.0.1:54830 [200]: /php_scripts/ardublockly_launch.php
+[1800:1800:0117/182521.117571:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:25:21 2020] 127.0.0.1:54842 [200]: /php_scripts/ardublockly_launch.php
+[1812:1812:0117/182523.579561:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:25:23 2020] 127.0.0.1:54846 [200]: /php_scripts/octoprint_launch.php
+[1823:1823:0117/182524.064616:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:25:24 2020] 127.0.0.1:54850 [200]: /php_scripts/octoprint_launch.php
+[1833:1833:0117/182524.210203:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:25:24 2020] 127.0.0.1:54854 [200]: /php_scripts/octoprint_launch.php
+[1843:1843:0117/182524.343282:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:25:24 2020] 127.0.0.1:54858 [200]: /php_scripts/octoprint_launch.php
+[1853:1853:0117/182524.474474:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:25:24 2020] 127.0.0.1:54862 [200]: /php_scripts/octoprint_launch.php
+[1863:1863:0117/182524.601048:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:25:24 2020] 127.0.0.1:54866 [200]: /php_scripts/octoprint_launch.php
+[1976:1976:0117/182629.041160:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:26:29 2020] 127.0.0.1:54906 [200]: /php_scripts/octoprint_launch.php
+[1986:1986:0117/182629.261633:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:26:29 2020] 127.0.0.1:54910 [200]: /php_scripts/octoprint_launch.php
+[1996:1996:0117/182629.397695:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[Fri Jan 17 18:26:29 2020] 127.0.0.1:54914 [200]: /php_scripts/octoprint_launch.php
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59498 [200]: /
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59502 [200]: /argon-angular-1.0/assets/vendor/nucleo/css/nucleo.css
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59514 [200]: /argon-angular-1.0/assets/vendor/font-awesome/css/font-awesome.min.css
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59520 [200]: /argon-angular-1.0/assets/css/argon.css
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59524 [200]: /argon-angular-1.0/assets/vendor/jquery/jquery.min.js
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59528 [200]: /argon-angular-1.0/assets/vendor/popper/popper.min.js
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59532 [200]: /argon-angular-1.0/assets/vendor/bootstrap/bootstrap.min.js
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59536 [200]: /node_modules/jquery/dist/jquery.min.js
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59540 [200]: /index.js
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59544 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59548 [200]: /argon-angular-1.0/assets/js/argon.js
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59558 [404]: /argon-angular-1.0/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js - No such file or directory
+[Fri Jan 17 19:08:46 2020] 127.0.0.1:59564 [200]: /argon-angular-1.0/assets/img/brand/favicon.png
+[1480:1480:0117/190850.490436:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1447:1447:0117/190854.660414:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+[1480:1480:0117/190854.674513:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)

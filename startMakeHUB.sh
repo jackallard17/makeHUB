@@ -1,11 +1,9 @@
-#!/bin/bash
+#!/bin/sh -
 
-cd scripts/startup/
+/home/jack/makeHUB/scripts/startup/start_phpserver.sh
 
-./start_phpserver.sh
+/home/jack/makeHUB/scripts/startup/start_ardublockly_server.sh
 
-./start_ardublockly_server.sh
+#./start_octoprint_server_service.sh
 
-./start_octoprint_server.sh
-
-./launch_interface.sh
+/home/jack/makeHUB/scripts/startup/launch_interface.sh

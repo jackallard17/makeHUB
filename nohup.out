@@ -1,0 +1,57 @@
+python: can't open file '../../packages/ardublockly/start_server.py': [Errno 2] No such file or directory
+[1347:1347:0117/185537.844684:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[Fri Jan 17 18:57:16 2020] 127.0.0.1:45098 [404]: / - No such file or directory
+[Fri Jan 17 18:57:16 2020] 127.0.0.1:45102 [404]: /favicon.ico - No such file or directory
+Running Python 2.7.17 (64 bit) on Linux-4.15.0-74-generic-x86_64-with-Ubuntu-18.04-bionic
+Local packages: /home/jack/makeHUB/packages/ardublockly/ardublocklyserver/local-packages
+
+======= Parsing Command line arguments =======
+No command line arguments found.
+
+======= Resolving server and project paths =======
+Ardublockly root directory:
+	/home/jack/makeHUB/packages/ardublockly
+Current working directory set to:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server root:
+	/home/jack/makeHUB/packages/ardublockly
+Selected server ip:
+	localhost
+Selected server port:
+	8001
+
+======= Loading Settings =======
+Settings loaded from:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: /dev/ttyS0
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: /home/jack/makeHUB/packages/ardublockly
+	Load IDE option: open
+Settings file saved to:
+	/home/jack/makeHUB/packages/ardublockly/ServerCompilerSettings.ini
+
+======= Starting Server - No  Web Browser Launch=======
+Setting HTTP Server Document Root to:
+	/home/jack/makeHUB/packages/ardublockly
+Launch Server:
+Bottle v0.12.13 server starting up (using WaitressServer())...
+Listening on http://localhost:8001/
+Hit Ctrl-C to quit.
+
+[1359:1359:0117/190846.477774:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1359:1359:0117/190846.639491:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[1388:1:0117/190846.854353:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1388:1:0117/190846.854962:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1388:1:0117/190846.889016:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1388:1:0117/190846.889663:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1359:1359:0117/190854.654149:ERROR:x11_util.cc(109)] X IO error received (X server probably went away)
+[1326:1326:0117/190854.654518:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+[1326:1365:0117/190854.711371:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
